@@ -36,5 +36,15 @@ public class TestOrders {
         System.out.println(order5.getOrderTotal());
         order5.display();
 
+        CoffeeKiosk coffeeKiosk = new CoffeeKiosk();
+
+        coffeeKiosk.addMenuItem("banana", 2.00);
+        coffeeKiosk.addMenuItem("coffee", 1.50);
+        coffeeKiosk.addMenuItem("latte", 4.50);
+        coffeeKiosk.addMenuItem("capuccino", 3.00);
+        coffeeKiosk.addMenuItem("muffin", 4.00);
+
+        coffeeKiosk.newOrder();
+
     }
 }

@@ -2,9 +2,10 @@ public class Item {
     private String name;
     private double price;
 
-    public Item(String name, double price) {
+    public Item(String name, double price, int index) {
         this.name = name;
         this.price = price;
+        this.index = index;
     }
 
     public void setName(String name) {
